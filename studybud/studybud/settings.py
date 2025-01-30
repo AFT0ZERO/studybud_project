@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'studybud.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pythonproject',       # Database name
-        'USER': 'myuser',           # Database user
-        'PASSWORD': 'mypassword',   # Database password
-        'HOST': 'localhost',        # Database host (use 'localhost' if running locally)
-        'PORT': '5432',             # Default PostgreSQL port
+        'NAME': 'pythonproject',       # Database Name
+        'USER': 'myuser',           # Database User
+        'PASSWORD': 'mypassword',   # Database Password
+        'HOST': 'localhost',        # Database Host (use 'localhost' if running locally)
+        'PORT': '5432',             # Default PostgreSQL Port
     }
 }
 
